@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p{
+            background-color: blue;
+            font-size: large;
+        }
+        h1{
+            background-color: aqua;
+
+        } */
+        table,th,td{
+            border: 10px solid black;
+            border-collapse: collapse;
+        }
+        .red{
+            color: red;
+        }
+        .green{
+            color: green;
+        }
+        .aqua{
+            color: aqua;
+        }
+        .small{
+            font-size:small;
+        }
+        .large{
+            font-size:large;
+        }
+        /* #first-button{
+            color:red;
+        } */
+
+        button:hover{
+            color:blue;
+        }
+
+
+        /* a:hover{
+            color:yellow;
+
+        } */
+        
+        .link-html:hover{
+            color:green;
+        }
+        #link:hover{
+            color:violet;
+        }
+        
+    </style>
+</head>
+<body>
+    <p> This is Shelley</p>
+    <h1>I'm in my second year of college</h1>
+    <h1>I'm good girl.</h1>
+    <table>
+        <tr>
+            <th>
+                Marks
+            </th>
+            <th>
+                Subject
+            </th>
+        </tr>
+        <tr>
+            <td>70 </td>
+            <td>Maths</td>
+           
+        </tr>
+        <tr>
+            <td>80</td>
+            <td>DSA</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>CPP</td>
+        </tr>
+    </table>
+    <p class="green">Hey folks!</p>
+    <p class="red">This is Shelley</p>
+    <p class="aqua">Today's We gonna practice selectors in CSS</p>
+    <h1 class="small">ABC</h1>
+    <h2 class="small">DEF</h2>
+    <h3 class="small">GHI</h3>
+    <h4 class="large">JKL</h4>
+    <h5 class="large">MNO</h5>
+    <h6 class="large">PQR</h6>
+
+    <button id="first-button">Submit</button> <br>
+
+    <a class="link-html"href="htttps://lappukart.com">Visit our clothing website</a> <br>
+    <a id="link"href="https://lappukart.com">Our Website</a>
+
+</body>
+</html>
